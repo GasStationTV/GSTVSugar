@@ -4,6 +4,7 @@ Custom Sugar Repository
 ###Setup
 
 1. Unpack SugarCRM tar file or installation into sugar-dev/.
+2. 
 2. Clone this repository into GSTVSugar.
 3. Overwrite sugar-dev/custom/ files.
 4. Setup database and import database dump. # TODO: more details
