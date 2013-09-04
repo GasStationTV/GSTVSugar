@@ -17,17 +17,16 @@ Custom Sugar Repository
 
     `rm -r sugar-dev/custom/`
     
-4. Shuffle the custom/ directory
+4. Move the Git files into sugar-dev. Now sugar-dev is your Git repository!
 
 ```
-    mv GSTVSugar/sugar-dev/ GSTVSugar/sugar-dev.tmp
-    mv sugar-dev GSTVSugar/
-    mv GSTVSugar/sugar-dev.tmp/custom/ GSTVSugar/sugar-dev
-    rmdir GSTVSugar/sugar-dev.tmp/`
+    mv GSTVSugar/.git GSTVSugar/.gitignore GSTVSugar/custom GSTVSugar/README.md sugar-dev/
+    rmdir GSTVSugar
 ```
 
-5. Setup database and import database dump. # TODO: more details
-6. Open SugarCRM web page, log in as Admin, go to Admin > Admin > Repair > Quick Repair and Rebuild. This will generate many language .php files and other files.
+5. Setup database and import database dump.
 
+	`gzip -dc gstvdev.sql.gz | mysql -u sugardevuser -p sugardevcrm`
 
+6. Open SugarCRM web page, log in as Admin, go to Admin > Admin > Repair > Quick Repair and Rebuild. This will generate many language .php files and other files in cache/ and elsewhere.
 
