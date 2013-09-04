@@ -27,8 +27,8 @@ sugar-dev/*.txt
 sugar-dev/*.html
 
 # Ignore some files and directories from the custom directory.
-sugar-dev/custom/history/*
-sugar-dev/custom/modulebuilder/*
-sugar-dev/custom/working/*
-sugar-dev/custom/modules/*/Ext/
-sugar-dev/custom/application/Ext/*
+custom/history/*
+custom/modulebuilder/*
+custom/working/*
+custom/modules/*/Ext/
+custom/application/Ext/*
