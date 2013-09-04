@@ -36,9 +36,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'PreOpportunity',
-  'published_date' => '2013-08-08 17:05:51',
+  'published_date' => '2013-08-08 18:56:04',
   'type' => 'module',
-  'version' => 1375981552,
+  'version' => 1375988164,
   'remove_tables' => 'prompt',
 );
 

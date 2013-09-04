@@ -28,13 +28,14 @@ array (
         'default' => true,
         'name' => 'flightstartdate',
       ),
-      'opportunity_no_c' => 
+      'plannerstatus_c' => 
       array (
-        'type' => 'varchar',
+        'type' => 'enum',
         'default' => true,
-        'label' => 'LBL_OPPORTUNITY_NO',
+        'studio' => 'visible',
+        'label' => 'LBL_PLANNERSTATUS',
         'width' => '10%',
-        'name' => 'opportunity_no_c',
+        'name' => 'plannerstatus_c',
       ),
     ),
     'advanced_search' => 

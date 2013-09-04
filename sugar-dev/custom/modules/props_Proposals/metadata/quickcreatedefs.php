@@ -41,7 +41,8 @@ array (
           array (
             'name' => 'tracking_number_c',
             'label' => 'LBL_TRACKING_NUMBER_C',
-          ),
+           'type' => 'readonly',
+           ),
         ),
         1 => 
         array (

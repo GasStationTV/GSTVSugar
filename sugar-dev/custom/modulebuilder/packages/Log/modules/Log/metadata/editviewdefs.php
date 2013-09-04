@@ -29,6 +29,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -40,11 +41,72 @@ array (
         ),
         1 => 
         array (
-          0 => 'description',
+          0 => 
+          array (
+            'name' => 'logdate',
+            'label' => 'LBL_LOGDATE',
+          ),
+          1 => 
+          array (
+            'name' => 'inoutswitch',
+            'studio' => 'visible',
+            'label' => 'LBL_INOUTSWITCH',
+          ),
         ),
         2 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'advertiser',
+            'studio' => 'visible',
+            'label' => 'LBL_ADVERTISER',
+          ),
+          1 => 
+          array (
+            'name' => 'agency',
+            'studio' => 'visible',
+            'label' => 'LBL_AGENCY',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'gstvuser1',
+            'studio' => 'visible',
+            'label' => 'LBL_GSTVUSER1',
+          ),
+          1 => 
+          array (
+            'name' => 'gstvuser2',
+            'studio' => 'visible',
+            'label' => 'LBL_GSTVUSER2',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'gstvuser3',
+            'studio' => 'visible',
+            'label' => 'LBL_GSTVUSER3',
+          ),
+          1 => 
+          array (
+            'name' => 'status',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUS',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 'description',
+          1 => 
+          array (
+            'name' => 'nextsteps',
+            'studio' => 'visible',
+            'label' => 'LBL_NEXTSTEPS',
+          ),
         ),
       ),
     ),

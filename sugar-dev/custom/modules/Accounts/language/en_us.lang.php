@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-06 09:07:43
+// created: 2013-08-20 13:15:31
 $mod_strings = array (
   'VALUE' => 'Category',
   'LBL_CPG' => 'CPG',
@@ -87,4 +87,6 @@ $mod_strings = array (
   'LBL_PLANNER1' => 'Primary Plannerx',
   'LBL_SELLER1' => 'Primary Seller',
   'LBL_PCOMP_PARENTCOMPANY_ACCOUNTS_1_FROM_PCOMP_PARENTCOMPANY_TITLE' => 'Parent Parent Company',
+  'LBL_EDITVIEW_PANEL2' => 'Assigned To',
+  'LBL_WEBSITE' => 'Website:',
 );

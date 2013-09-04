@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-02 14:19:33
+// created: 2013-08-20 13:01:55
 $mod_strings = array (
   'VALUE' => 'Job Title:',
   'LBL_HISTORY' => 'History',
@@ -32,4 +32,12 @@ $mod_strings = array (
   'LBL_ADVERTISER_DROP' => 'Employer',
   'LBL_EMP_CATAGORY' => 'Employer Catagory',
   'LBL_RELATEDAGENCY' => 'Agency',
+  'LBL_EDITVIEW_PANEL1' => 'Assigned',
+  'LBL_LAST_NAME' => 'Last Name:',
+  'LBL_HOME_PHONE' => 'Home:',
+  'LBL_MOBILE_PHONE' => 'Mobile:',
+  'LBL_OTHER_PHONE' => 'Other Phone:',
+  'LBL_FAX_PHONE' => 'Fax:',
+  'LBL_DEPARTMENT' => 'Department:',
+  'LBL_ASSISTANT' => 'Assistant:',
 );

@@ -1,5 +1,5 @@
 <?php
- // created: 2013-07-18 11:15:49
+ // created: 2013-08-20 13:14:17
 $dictionary['Account']['fields']['parentcompany_c']['dependency']='';
 
  ?>

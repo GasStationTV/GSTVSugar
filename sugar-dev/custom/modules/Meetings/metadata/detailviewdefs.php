@@ -73,17 +73,17 @@ array (
           'field' => '30',
         ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_MEETING_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_PANEL_ASSIGNMENT' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),

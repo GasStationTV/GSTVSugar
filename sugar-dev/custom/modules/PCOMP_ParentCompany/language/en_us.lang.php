@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-01 14:00:31
+// created: 2013-08-14 13:55:17
 $mod_strings = array (
   'LBL_EMPLOYEES' => 'Number of Employees',
   'LNK_NEW_RECORD' => 'Create Parent Company',
@@ -11,4 +11,5 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'My Parent Company',
   'LBL_ACCOUNT_INFORMATION' => 'Parent Company Information',
   'LBL_ACCOUNT_NAME' => 'Parent Company Name:',
+  'LBL_EDITVIEW_PANEL1' => 'Assigned To',
 );

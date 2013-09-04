@@ -49,6 +49,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -116,6 +121,18 @@ array (
               'key' => 'primary',
             ),
           ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO',
+          ),
+          1 => '',
         ),
       ),
     ),

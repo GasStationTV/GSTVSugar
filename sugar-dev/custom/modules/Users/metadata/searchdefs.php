@@ -13,6 +13,45 @@ array (
         'default' => true,
         'width' => '10%',
       ),
+      'user_name' => 
+      array (
+        'type' => 'user_name',
+        'studio' => 
+        array (
+          'no_duplicate' => true,
+          'editview' => false,
+          'detailview' => true,
+          'quickcreate' => false,
+          'basic_search' => false,
+          'advanced_search' => false,
+          'wirelesseditview' => false,
+          'wirelessdetailview' => true,
+          'wirelesslistview' => false,
+          'wireless_basic_search' => false,
+          'wireless_advanced_search' => false,
+          'rollup' => false,
+        ),
+        'label' => 'LBL_USER_NAME',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'user_name',
+      ),
+      'first_name' => 
+      array (
+        'type' => 'name',
+        'label' => 'LBL_FIRST_NAME',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'first_name',
+      ),
+      'last_name' => 
+      array (
+        'type' => 'name',
+        'label' => 'LBL_LAST_NAME',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'last_name',
+      ),
       'employee_type_c' => 
       array (
         'type' => 'enum',

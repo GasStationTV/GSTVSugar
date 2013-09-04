@@ -11,9 +11,7 @@ array (
         'buttons' => 
         array (
           0 => 'EDIT',
-          1 => 'DUPLICATE',
-          2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
+          1 => 'DELETE',
         ),
       ),
       'maxColumns' => '2',
@@ -30,12 +28,12 @@ array (
           'field' => '30',
         ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'DEFAULT' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL1' => 
@@ -51,6 +49,11 @@ array (
         'LBL_EDITVIEW_PANEL3' => 
         array (
           'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -76,6 +79,11 @@ array (
         1 => 
         array (
           0 => 'name',
+          1 => 
+          array (
+            'name' => 'opportunity_name_c',
+            'label' => 'LBL_OPPORTUNITY_NAME',
+          ),
         ),
         2 => 
         array (
@@ -137,6 +145,15 @@ array (
         array (
           0 => 
           array (
+            'name' => 'cpm_c',
+            'label' => 'LBL_CPM',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
             'name' => 'component_items',
             'studio' => 'visible',
             'label' => 'LBL_COMPONENT_ITEMS',
@@ -147,7 +164,7 @@ array (
             'label' => 'LBL_TARGETDEMO',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -160,6 +177,20 @@ array (
             'name' => 'add_value_bonus',
             'studio' => 'visible',
             'label' => 'LBL_ADD_VALUE_BONUS',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'plannerstatus_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PLANNERSTATUS',
+          ),
+          1 => 
+          array (
+            'name' => 'completeddate_c',
+            'label' => 'LBL_COMPLETEDDATE',
           ),
         ),
       ),
@@ -253,12 +284,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'mapping',
-            'studio' => 'visible',
-            'label' => 'LBL_MAPPING',
-          ),
-          1 => 
-          array (
             'name' => 'add_map_details',
             'studio' => 'visible',
             'label' => 'LBL_ADD_MAP_DETAILS',
@@ -333,6 +358,18 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ADVERTISER_ACHIEVE',
           ),
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
+          1 => '',
         ),
       ),
     ),

@@ -1,8 +1,9 @@
 <?php
-// created: 2013-06-19 12:22:55
+// created: 2013-08-14 13:48:57
 $mod_strings = array (
   'VALUE' => 'Purpose',
   'LBL_LEIDER' => 'Leider to Attend?',
   'LBL_PURPOSE' => 'Purpose',
   'LBL_ACCOUNT' => 'Advertiser',
+  'LBL_EDITVIEW_PANEL1' => 'Assigned To',
 );

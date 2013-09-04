@@ -47,18 +47,6 @@ $GLOBALS['app_list_strings']['YorN']=array (
   'Yes' => 'Yes',
   'No' => 'No',
 );
-$GLOBALS['app_list_strings']['GSTV_Account_Managers_list']=array (
-  '' => '',
-  'Alan Medina' => 'Alan Medina',
-  'Eric Haynes' => 'Eric Haynes',
-  'Joyce Tominna' => 'Joyce Tominna',
-  'Shannon OConnor' => 'Shannon OConnor',
-  'Vivian Alhermizi' => 'Vivian Alhermizi',
-  'Wendy Griffin' => 'Wendy Griffin',
-  'Eva Ayala' => 'Eva Ayala',
-  'Vicki Subu' => 'Vicki Subu',
-  'AmandaGhigo' => 'Amanda Ghigo',
-);
 $GLOBALS['app_list_strings']['GSTV_divisions_list']=array (
   '' => '',
   'National' => 'National',
@@ -73,12 +61,6 @@ $GLOBALS['app_list_strings']['sales_stage_dom']=array (
   'Closed Lost' => 'Closed Lost',
   'Proactive Proposal' => 'GSTV Initiated',
   'Proposal' => 'Client Requested',
-);
-$GLOBALS['app_list_strings']['opportunity_stage_list']=array (
-  'Opportunity' => 'Opportunity',
-  'Negotiating' => 'Negotiating',
-  'Closed_Won' => 'Closed Won',
-  'Closed_Lost' => 'Closed Lost',
 );
 $GLOBALS['app_list_strings']['GSTV_mapping_list']=array (
   '' => '',
@@ -111,40 +93,11 @@ $GLOBALS['app_list_strings']['GSTV_Account_Executives___list']=array (
   'Adam_DiBartolomeo' => 'Adam DiBartolomeo',
   'Jeremy_Janson' => 'Jeremy Janson',
 );
-$GLOBALS['app_list_strings']['GSTV_Account_Executives_list']=array (
-  '' => '',
-  'Caitlin Cardin' => 'Caitlin Cardin',
-  'Christopher Palumbo' => 'Christopher Palumbo',
-  'Craig Stelmachowski' => 'Craig Stelmachowski',
-  'Damian Fasce' => 'Damian Fasce',
-  'Heidi Merritt' => 'Heidi Merritt',
-  'Jessica Pulis' => 'Jessica Pulis',
-  'Lane Coleman' => 'Lane Coleman',
-  'Stacey Cross' => 'Stacey Cross',
-  'Suzanne Slim' => 'Suzanne Slim',
-  'Todd Rankin' => 'TBD',
-  'David Leider' => 'David Leider',
-  'Darren Frye' => 'Darren Frye',
-  'Sean Munster' => 'Sean Munster',
-  'Matthew Berney' => 'Matthew Berney',
-  'Mike_Hughes' => 'Mike Hughes',
-  'Mark_Sarafa' => 'Mark Sarafa',
-  'John_Zabari' => 'John Zabari',
-  'Jeremy_Janson' => 'Jeremy Janson',
-  'Adam_DiBartolomeo' => 'Adam DiBartolomeo',
-);
 $GLOBALS['app_list_strings']['meeting_status_dom']=array (
   'Held' => 'Genomförd',
   'Not Held' => 'Ej genomförd',
   'Planned' => 'Planerad',
   'Rescheduled' => 'Rescheduled',
-);
-$GLOBALS['app_list_strings']['GSTV_Employee_type_list']=array (
-  'Planner' => 'Planner',
-  'Seller' => 'Seller',
-  'Executive' => 'Executive',
-  'SuperPlanner' => 'Super Planner',
-  'Management' => 'Management',
 );
 $GLOBALS['app_list_strings']['GSTV_open_closed_list']=array (
   'Open' => 'Open',
@@ -153,4 +106,55 @@ $GLOBALS['app_list_strings']['GSTV_open_closed_list']=array (
 $GLOBALS['app_list_strings']['GSTV_InOut_list']=array (
   'Inbound' => 'Inbound',
   'Outbound' => 'Outbound',
+);
+$GLOBALS['app_list_strings']['opportunity_stage_list']=array (
+  'Closed_Won' => 'Closed Won',
+  'Closed_Lost' => 'Closed Lost',
+  'Open' => 'Open',
+);
+$GLOBALS['app_list_strings']['GSTV_open_complete_list']=array (
+  'Open' => 'Open',
+  'Completed' => 'Completed',
+);
+$GLOBALS['app_list_strings']['GSTV_Employee_type_list']=array (
+  'Planner' => 'Planner',
+  'Seller' => 'Seller',
+  'Executive' => 'Executive',
+  'SuperPlanner' => 'Super Planner',
+  'Management' => 'Management',
+  '' => '',
+);
+$GLOBALS['app_list_strings']['GSTV_Account_Executives_list']=array (
+  '' => '',
+  'Caitlin Cardin' => 'Caitlin Cardin',
+  'Christopher Palumbo' => 'Christopher Palumbo',
+  'Craig Stelmachowski' => 'Craig Stelmachowski',
+  'Damian Fasce' => 'Damian Fasce',
+  'Jessica Pulis' => 'Jessica Pulis',
+  'Lane Coleman' => 'Lane Coleman',
+  'Stacey Cross' => 'Stacey Cross',
+  'Suzanne Slim' => 'Suzanne Slim',
+  'Darren Frye' => 'Darren Frye',
+  'Sean Munster' => 'Sean Munster',
+  'Matthew Berney' => 'Matthew Berney',
+  'Mike_Hughes' => 'Mike Hughes',
+  'Mark_Sarafa' => 'Mark Sarafa',
+  'Jeremy_Janson' => 'Jeremy Janson',
+  'Adam_DiBartolomeo' => 'Adam DiBartolomeo',
+  'Robin_Randolph' => 'Robin Randolph',
+  'John_Zebari' => 'John Zebari',
+  'Michelle_Budaj' => 'Michelle Budaj',
+);
+$GLOBALS['app_list_strings']['GSTV_Account_Managers_list']=array (
+  '' => '',
+  'Alan Medina' => 'Alan Medina',
+  'Eric Haynes' => 'Eric Haynes',
+  'Joyce Tominna' => 'Joyce Tominna',
+  'Shannon OConnor' => 'Shannon OConnor',
+  'Vivian Alhermizi' => 'Vivian Alhermizi',
+  'Wendy Griffin' => 'Wendy Griffin',
+  'Eva Ayala' => 'Eva Ayala',
+  'Vicki Subu' => 'Vicki Subu',
+  'AmandaGhigo' => 'Amanda Ghigo',
+  'Michelle_Budaj' => 'Michelle Budaj',
 );

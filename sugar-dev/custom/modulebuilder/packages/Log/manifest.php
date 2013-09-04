@@ -36,9 +36,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'Log',
-  'published_date' => '2013-08-08 17:21:00',
+  'published_date' => '2013-08-08 18:24:33',
   'type' => 'module',
-  'version' => 1375982460,
+  'version' => 1375986273,
   'remove_tables' => 'prompt',
 );
 

@@ -225,4 +225,12 @@ $searchFields['Leads'] = array (
   array (
     'query_type' => 'default',
   ),
+  'email1' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'title' => 
+  array (
+    'query_type' => 'default',
+  ),
 );

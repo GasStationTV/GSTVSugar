@@ -1,5 +1,17 @@
 <?php
-// created: 2013-07-17 15:09:38
+/*********************************************************************************
+ * By installing or using this file, you are confirming on behalf of the entity
+ * subscribed to the SugarCRM Inc. product ("Company") that Company is bound by
+ * the SugarCRM Inc. Master Subscription Agreement (“MSA”), which is viewable at:
+ * http://www.sugarcrm.com/master-subscription-agreement
+ *
+ * If Company is not bound by the MSA, then by installing or using this file
+ * you are agreeing unconditionally that Company will be bound by the MSA and
+ * certifying that you have authority to bind Company accordingly.
+ *
+ * Copyright (C) 2004-2013 SugarCRM Inc.  All rights reserved.
+ ********************************************************************************/
+
 $searchFields['Contacts'] = array (
   'first_name' => 
   array (
@@ -209,6 +221,34 @@ $searchFields['Contacts'] = array (
     'query_type' => 'default',
   ),
   'email1' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'phone_home' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'phone_mobile' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'phone_other' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'phone_fax' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'title' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'department' => 
+  array (
+    'query_type' => 'default',
+  ),
+  'description' => 
   array (
     'query_type' => 'default',
   ),

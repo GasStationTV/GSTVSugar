@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-07 13:50:19
+// created: 2013-08-14 13:53:51
 $mod_strings = array (
   'VALUE' => 'Is product one of these?',
   'LBL_ACCOUNT_2' => 'Account 2',
@@ -85,13 +85,13 @@ $mod_strings = array (
   'LBL_OPP_MATCHED_LOC' => 'Specify Number of Matched Locations Needed',
   'LBL_OPP_GSTV_VS_CLIENT' => 'GSTV vs Client Locations?',
   'LBL_OPP_CLIENT_VS_GSTV' => 'Client vs GSTV Locations?',
-  'LBL_EDITVIEW_PANEL7' => 'Mapping Details',
+  'LBL_EDITVIEW_PANEL7' => 'Assigned To',
   'LBL_EDITVIEW_PANEL8' => 'GSTV DMAs',
   'LBL_EDITVIEW_PANEL9' => 'Account Executive',
   'LBL_OPP_ADD_MAP_DETAILS' => 'Additional Mapping Details',
   'LBL_OPP_ADD_DMA_DETAILS' => 'Additional DMA Details',
   'LBL_TARGET_DEMO' => 'Target demo',
-  'LBL_OPPORTUNITY_STAGE' => 'Stage',
+  'LBL_OPPORTUNITY_STAGE' => 'Opportunity Status',
   'LBL_SALES_VIDEOS_NEEDED' => 'Sales Videos Needed',
   'LBL_TRACKING_NUMBER_C' => 'Opportunity ID',
   'LBL_DRIVINGAGENCY1' => 'Driving Agency 1',
@@ -104,4 +104,6 @@ $mod_strings = array (
   'LBL_PLANNER3' => 'Planner',
   'LBL_PLANNER4' => 'Planner',
   'LBL_PROPS_PROPOSALS_OPPORTUNITIES_FROM_PROPS_PROPOSALS_TITLE' => 'Proposals',
+  'LBL_CLOSEDAMOUNT' => 'Closed Amount',
+  'LBL_OUTOFHOME' => 'Out of Home',
 );

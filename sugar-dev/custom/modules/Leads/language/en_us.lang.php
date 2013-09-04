@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-02 14:17:22
+// created: 2013-08-20 13:09:31
 $mod_strings = array (
   'LBL_ACCOUNT' => 'Advertiser',
   'LBL_ACCOUNT_DESCRIPTION' => 'Advertiser Description',
@@ -17,6 +17,9 @@ $mod_strings = array (
   'LBL_GSTV_ADVERTISER_FLD' => 'Advertiser',
   'LBL_DESCRIPTION' => 'Description:',
   'LBL_MOBILE_PHONE' => 'Mobile Phone',
-  'LBL_EDITVIEW_PANEL1' => '',
+  'LBL_EDITVIEW_PANEL1' => 'Assigned To',
   'LBL_CONTACT_INFORMATION' => 'Phone or Email must be entered',
+  'LBL_LAST_NAME' => 'Last Name:',
+  'LBL_EMAIL_ADDRESS' => 'Email Address:',
+  'LBL_TITLE' => 'Title:',
 );

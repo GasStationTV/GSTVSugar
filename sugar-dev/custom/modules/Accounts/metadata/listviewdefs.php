@@ -26,12 +26,12 @@ array (
     'label' => 'LBL_ACCOUNT_MANAGER_NAME',
     'width' => '10%',
   ),
-  'ADV_PRI_AE_C' => 
+  'SELLER1_C' => 
   array (
-    'type' => 'multienum',
+    'type' => 'enum',
     'default' => true,
     'studio' => 'visible',
-    'label' => 'LBL_ADV_PRI_AE',
+    'label' => 'LBL_SELLER1',
     'width' => '10%',
   ),
   'DMA_C' => 

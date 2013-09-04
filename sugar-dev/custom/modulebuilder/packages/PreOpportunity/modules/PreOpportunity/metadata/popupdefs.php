@@ -1,30 +1,102 @@
 <?php
-if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
-/*********************************************************************************
- * By installing or using this file, you are confirming on behalf of the entity
- * subscribed to the SugarCRM Inc. product ("Company") that Company is bound by
- * the SugarCRM Inc. Master Subscription Agreement (“MSA”), which is viewable at:
- * http://www.sugarcrm.com/master-subscription-agreement
- *
- * If Company is not bound by the MSA, then by installing or using this file
- * you are agreeing unconditionally that Company will be bound by the MSA and
- * certifying that you have authority to bind Company accordingly.
- *
- * Copyright (C) 2004-2013 SugarCRM Inc.  All rights reserved.
- ********************************************************************************/
-
-$module_name = 'gpop_PreOpportunity';
-$object_name = 'gpop_PreOpportunity';
-$_module_name = 'gpop_preopportunity';
-$popupMeta = array('moduleMain' => $module_name,
-						'varName' => $object_name,
-						'orderBy' => $_module_name.'.name',
-						'whereClauses' => 
-							array('name' => $_module_name . '.name', 
-								),
-						    'searchInputs'=> array($_module_name. '_number', 'name', 'priority','status'),
-							
-						);
-?>
- 
- 
+$popupMeta = array (
+    'moduleMain' => 'gpop_PreOpportunity',
+    'varName' => 'gpop_PreOpportunity',
+    'orderBy' => 'gpop_preopportunity.name',
+    'whereClauses' => array (
+  'name' => 'gpop_preopportunity.name',
+  'advertiser' => 'gpop_preopportunity.advertiser',
+  'agency' => 'gpop_preopportunity.agency',
+  'status' => 'gpop_preopportunity.status',
+),
+    'searchInputs' => array (
+  1 => 'name',
+  4 => 'advertiser',
+  5 => 'agency',
+  6 => 'status',
+),
+    'searchdefs' => array (
+  'name' => 
+  array (
+    'type' => 'name',
+    'link' => true,
+    'label' => 'LBL_NAME',
+    'width' => '10%',
+    'name' => 'name',
+  ),
+  'status' => 
+  array (
+    'type' => 'radioenum',
+    'studio' => 'visible',
+    'label' => 'LBL_STATUS',
+    'width' => '10%',
+    'name' => 'status',
+  ),
+  'advertiser' => 
+  array (
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_ADVERTISER',
+    'id' => 'ACCOUNT_ID_C',
+    'link' => true,
+    'width' => '10%',
+    'name' => 'advertiser',
+  ),
+  'agency' => 
+  array (
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_AGENCY',
+    'id' => 'AGENC_AGENCIES_ID_C',
+    'link' => true,
+    'width' => '10%',
+    'name' => 'agency',
+  ),
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'type' => 'name',
+    'link' => true,
+    'label' => 'LBL_NAME',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'ADVERTISER' => 
+  array (
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_ADVERTISER',
+    'id' => 'ACCOUNT_ID_C',
+    'link' => true,
+    'width' => '10%',
+    'default' => true,
+  ),
+  'AGENCY' => 
+  array (
+    'type' => 'relate',
+    'studio' => 'visible',
+    'label' => 'LBL_AGENCY',
+    'id' => 'AGENC_AGENCIES_ID_C',
+    'link' => true,
+    'width' => '10%',
+    'default' => true,
+  ),
+  'SELLER1' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'label' => 'LBL_SELLER1',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'PLANNER1' => 
+  array (
+    'type' => 'enum',
+    'studio' => 'visible',
+    'label' => 'LBL_PLANNER1',
+    'width' => '10%',
+    'default' => true,
+  ),
+),
+);

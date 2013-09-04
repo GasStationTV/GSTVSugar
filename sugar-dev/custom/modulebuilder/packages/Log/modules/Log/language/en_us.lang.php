@@ -58,4 +58,9 @@ $mod_strings = array (
   'LBL_CLIENT_AE' => 'Seller4',
   'LBL_STATUS' => 'Status',
   'LBL_LOGDATE' => 'Log Date',
+  'LBL_INOUTSWITCH' => 'Inbound/Outbound',
+  'LBL_GSTVUSER1' => 'GSTV User1',
+  'LBL_GSTVUSER2' => 'GSTV User2',
+  'LBL_GSTVUSER3' => 'GSTV User3',
+  'LBL_NEXTSTEPS' => 'nextsteps',
 );

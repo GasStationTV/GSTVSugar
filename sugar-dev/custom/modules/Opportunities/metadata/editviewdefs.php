@@ -24,7 +24,7 @@ array (
       array (
         'LBL_PANEL6' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_PANEL4' => 
@@ -37,8 +37,13 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'syncDetailEditViews' => true,
     ),
     'panels' => 
@@ -75,7 +80,7 @@ array (
           array (
             'name' => 'tracking_number_c',
             'label' => 'LBL_TRACKING_NUMBER_C',
-	     'type' => "readonly",
+            'type' => 'readonly',
           ),
           1 => 
           array (
@@ -183,8 +188,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'probability_dropdown_c',
-            'label' => 'LBL_PROBABILITY_DROPDOWN',
+            'name' => 'closedamount_c',
+            'label' => 'LBL_CLOSEDAMOUNT',
           ),
         ),
         8 => 
@@ -198,6 +203,14 @@ array (
           array (
             'name' => 'flight_end_date_c',
             'label' => 'LBL_FLIGHT_END_DATE',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'probability_dropdown_c',
+            'label' => 'LBL_PROBABILITY_DROPDOWN',
           ),
         ),
       ),
@@ -219,9 +232,6 @@ array (
             'name' => 'drivingagency1_c',
             'studio' => 'visible',
             'label' => 'LBL_DRIVINGAGENCY1',
-			'displayParams' => array(
-				'initial_filter' => '&advertiserId=eaea0d5a-7027-851d-78c4-5214f62a7773',
-			),
           ),
         ),
         2 => 
@@ -264,6 +274,29 @@ array (
           array (
             'name' => 'related_account_3_type_c',
             'label' => 'LBL_RELATED_ACCOUNT_3_TYPE',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'outofhome_c',
+            'studio' => 'visible',
+            'label' => 'LBL_OUTOFHOME',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel7' => 
+      array (
+        0 => 
+        array (
+          0 => 'assigned_user_name',
+          1 => 
+          array (
+            'name' => 'assigned_employee_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ASSIGNED_EMPLOYEE',
           ),
         ),
       ),

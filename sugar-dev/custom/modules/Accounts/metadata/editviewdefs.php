@@ -38,7 +38,7 @@ array (
       array (
         'LBL_ACCOUNT_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_PANEL1' => 
@@ -46,8 +46,13 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'syncDetailEditViews' => true,
     ),
     'panels' => 
@@ -305,6 +310,18 @@ array (
             'name' => 'agenc_agencies_accounts_8_name',
             'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_8_FROM_AGENC_AGENCIES_TITLE',
           ),
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO',
+          ),
+          1 => '',
         ),
       ),
     ),

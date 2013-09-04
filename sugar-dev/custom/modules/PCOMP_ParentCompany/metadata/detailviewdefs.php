@@ -31,17 +31,17 @@ array (
           'field' => '30',
         ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_ACCOUNT_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
-        'LBL_DESCRIPTION_INFORMATION' => 
+        'LBL_EDITVIEW_PANEL1' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -55,12 +55,20 @@ array (
         array (
           0 => 'name',
         ),
+        1 => 
+        array (
+          0 => 'description',
+        ),
       ),
-      'lbl_description_information' => 
+      'lbl_editview_panel1' => 
       array (
         0 => 
         array (
-          0 => 'description',
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
         ),
       ),
     ),

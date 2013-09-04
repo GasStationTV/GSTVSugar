@@ -8,13 +8,21 @@ array (
     'link' => true,
     'default' => true,
   ),
-  'AMOUNT_USDOLLAR' => 
+  'PROJ_AMOUNT_C' => 
   array (
-    'width' => '10%',
-    'label' => 'LBL_LIST_AMOUNT_USDOLLAR',
-    'align' => 'right',
+    'type' => 'currency',
     'default' => true,
+    'label' => 'LBL_PROJ_AMOUNT',
     'currency_format' => true,
+    'width' => '10%',
+  ),
+  'CLOSEDAMOUNT_C' => 
+  array (
+    'type' => 'currency',
+    'default' => true,
+    'label' => 'LBL_CLOSEDAMOUNT',
+    'currency_format' => true,
+    'width' => '10%',
   ),
   'OPPORTUNITY_STAGE_C' => 
   array (

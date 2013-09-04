@@ -34,7 +34,7 @@ array (
       array (
         'LBL_CONTACT_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_ADDRESS_INFORMATION' => 
@@ -42,8 +42,13 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'syncDetailEditViews' => true,
     ),
     'panels' => 
@@ -197,8 +202,17 @@ array (
         array (
           0 => 
           array (
-            'name' => 'assistant_phone',
-            'label' => 'LBL_ASSISTANT_PHONE',
+            'name' => 'primary_address_city',
+            'comment' => 'City for primary address',
+            'label' => 'LBL_PRIMARY_ADDRESS_CITY',
+          ),
+        ),
+        15 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'label' => 'LBL_DESCRIPTION',
           ),
         ),
       ),
@@ -220,6 +234,18 @@ array (
             ),
             'label' => 'LBL_PRIMARY_ADDRESS_STREET',
           ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
+          1 => '',
         ),
       ),
     ),

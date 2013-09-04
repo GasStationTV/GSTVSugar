@@ -13,4 +13,21 @@
  ********************************************************************************/
 
 $relationships = array (
+  'glog_log_tasks' => 
+  array (
+    'rhs_label' => 'Tasks',
+    'lhs_label' => 'Log',
+    'lhs_subpanel' => 'default',
+    'rhs_subpanel' => 'default',
+    'lhs_module' => 'glog_Log',
+    'rhs_module' => 'Tasks',
+    'relationship_type' => 'many-to-many',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'glog_log_tasks',
+  ),
 );

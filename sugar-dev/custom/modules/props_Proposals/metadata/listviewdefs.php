@@ -9,6 +9,13 @@ array (
     'default' => true,
     'link' => true,
   ),
+  'OPPORTUNITY_NAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_OPPORTUNITY_NAME',
+    'width' => '10%',
+  ),
   'PROPOSALNEEDEDBY' => 
   array (
     'type' => 'date',
@@ -24,25 +31,12 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'FLIGHTSTARTDATE' => 
+  'PLANNERSTATUS_C' => 
   array (
-    'type' => 'date',
-    'label' => 'LBL_FLIGHTSTARTDATE',
-    'width' => '10%',
+    'type' => 'enum',
     'default' => true,
-  ),
-  'FLIGHTENDDATE' => 
-  array (
-    'type' => 'date',
-    'label' => 'LBL_FLIGHTENDDATE',
-    'width' => '10%',
-    'default' => true,
-  ),
-  'OPPORTUNITY_NO_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_OPPORTUNITY_NO',
+    'studio' => 'visible',
+    'label' => 'LBL_PLANNERSTATUS',
     'width' => '10%',
   ),
   'TRACKING_NUMBER_C' => 
@@ -58,12 +52,33 @@ array (
     'label' => 'LBL_TEAM',
     'default' => false,
   ),
+  'FLIGHTENDDATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_FLIGHTENDDATE',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'OPPORTUNITY_NO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_OPPORTUNITY_NO',
+    'width' => '10%',
+  ),
   'ASSIGNED_USER_NAME' => 
   array (
     'width' => '9%',
     'label' => 'LBL_ASSIGNED_TO_NAME',
     'module' => 'Employees',
     'id' => 'ASSIGNED_USER_ID',
+    'default' => false,
+  ),
+  'FLIGHTSTARTDATE' => 
+  array (
+    'type' => 'date',
+    'label' => 'LBL_FLIGHTSTARTDATE',
+    'width' => '10%',
     'default' => false,
   ),
 );

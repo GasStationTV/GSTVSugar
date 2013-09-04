@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-01 15:57:31
+// created: 2013-08-20 13:43:48
 $mod_strings = array (
   'LBL_AGENC_AGENCIES_ACCOUNTS_1_FROM_ACCOUNTS_TITLE' => 'Media Planning Clients',
   'LBL_AGENC_AGENCIES_ACCOUNTS_2_FROM_ACCOUNTS_TITLE' => 'Media Buying Clients',
@@ -22,4 +22,5 @@ $mod_strings = array (
   'LBL_AGENC_AGENCIES_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contacts',
   'LBL_ASSIGNED_TO_NAME' => 'Assigned Seller',
   'LBL_PRIMARYSELLER' => 'Primary Seller',
+  'LBL_PHONE_OFFICE' => 'Office Phone:',
 );
