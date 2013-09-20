@@ -1,5 +1,5 @@
 <?php
- // created: 2013-08-03 10:22:59
+ // created: 2013-09-19 21:47:45
 $layout_defs["props_Proposals"]["subpanel_setup"]['props_proposals_opportunities'] = array (
   'order' => 100,
   'module' => 'Opportunities',

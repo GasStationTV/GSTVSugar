@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-03 10:22:59
+// created: 2013-09-19 21:47:45
 $dictionary["props_proposals_opportunities"] = array (
   'true_relationship_type' => 'many-to-many',
   'relationships' => 
