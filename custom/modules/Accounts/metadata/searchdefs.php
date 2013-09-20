@@ -12,17 +12,6 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'parentcompany_c' => 
-      array (
-        'type' => 'relate',
-        'default' => true,
-        'studio' => 'visible',
-        'label' => 'LBL_PARENTCOMPANY',
-        'id' => 'PCOMP_PARENTCOMPANY_ID_C',
-        'link' => true,
-        'width' => '10%',
-        'name' => 'parentcompany_c',
-      ),
       'current_user_only' => 
       array (
         'name' => 'current_user_only',

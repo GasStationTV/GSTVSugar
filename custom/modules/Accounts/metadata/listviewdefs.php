@@ -8,16 +8,6 @@ array (
     'link' => true,
     'default' => true,
   ),
-  'PARENTCOMPANY_C' => 
-  array (
-    'type' => 'relate',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_PARENTCOMPANY',
-    'id' => 'PCOMP_PARENTCOMPANY_ID_C',
-    'link' => true,
-    'width' => '10%',
-  ),
   'ACCOUNT_MANAGER_NAME_C' => 
   array (
     'type' => 'enum',

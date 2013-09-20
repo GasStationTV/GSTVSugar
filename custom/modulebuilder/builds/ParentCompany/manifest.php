@@ -36,9 +36,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'ParentCompany',
-  'published_date' => '2013-07-18 15:01:15',
+  'published_date' => '2013-09-20 03:47:56',
   'type' => 'module',
-  'version' => 1374159675,
+  'version' => 1379648876,
   'remove_tables' => 'prompt',
 );
 
@@ -74,21 +74,21 @@ $installdefs = array (
   array (
     0 => 
     array (
-      'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
+      'from' => '<basepath>/SugarModules/language/application/zh_CN.lang.php',
       'to_module' => 'application',
-      'language' => 'en_us',
+      'language' => 'zh_CN',
     ),
     1 => 
     array (
-      'from' => '<basepath>/SugarModules/language/application/et_EE.lang.php',
+      'from' => '<basepath>/SugarModules/language/application/bg_BG.lang.php',
       'to_module' => 'application',
-      'language' => 'et_EE',
+      'language' => 'bg_BG',
     ),
     2 => 
     array (
-      'from' => '<basepath>/SugarModules/language/application/nb_NO.lang.php',
+      'from' => '<basepath>/SugarModules/language/application/tr_TR.lang.php',
       'to_module' => 'application',
-      'language' => 'nb_NO',
+      'language' => 'tr_TR',
     ),
     3 => 
     array (
@@ -98,141 +98,141 @@ $installdefs = array (
     ),
     4 => 
     array (
-      'from' => '<basepath>/SugarModules/language/application/sv_SE.lang.php',
+      'from' => '<basepath>/SugarModules/language/application/en_UK.lang.php',
       'to_module' => 'application',
-      'language' => 'sv_SE',
+      'language' => 'en_UK',
     ),
     5 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/lv_LV.lang.php',
-      'to_module' => 'application',
-      'language' => 'lv_LV',
-    ),
-    6 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/nl_NL.lang.php',
-      'to_module' => 'application',
-      'language' => 'nl_NL',
-    ),
-    7 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/fr_FR.lang.php',
-      'to_module' => 'application',
-      'language' => 'fr_FR',
-    ),
-    8 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/de_DE.lang.php',
-      'to_module' => 'application',
-      'language' => 'de_DE',
-    ),
-    9 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/da_DK.lang.php',
-      'to_module' => 'application',
-      'language' => 'da_DK',
-    ),
-    10 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/pt_PT.lang.php',
-      'to_module' => 'application',
-      'language' => 'pt_PT',
-    ),
-    11 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/ca_ES.lang.php',
-      'to_module' => 'application',
-      'language' => 'ca_ES',
-    ),
-    12 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/hu_HU.lang.php',
-      'to_module' => 'application',
-      'language' => 'hu_HU',
-    ),
-    13 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/pt_BR.lang.php',
-      'to_module' => 'application',
-      'language' => 'pt_BR',
-    ),
-    14 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/tr_TR.lang.php',
-      'to_module' => 'application',
-      'language' => 'tr_TR',
-    ),
-    15 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/pl_PL.lang.php',
-      'to_module' => 'application',
-      'language' => 'pl_PL',
-    ),
-    16 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/ro_RO.lang.php',
-      'to_module' => 'application',
-      'language' => 'ro_RO',
-    ),
-    17 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/es_ES.lang.php',
-      'to_module' => 'application',
-      'language' => 'es_ES',
-    ),
-    18 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/ja_JP.lang.php',
-      'to_module' => 'application',
-      'language' => 'ja_JP',
-    ),
-    19 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/he_IL.lang.php',
-      'to_module' => 'application',
-      'language' => 'he_IL',
-    ),
-    20 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/it_it.lang.php',
-      'to_module' => 'application',
-      'language' => 'it_it',
-    ),
-    21 => 
     array (
       'from' => '<basepath>/SugarModules/language/application/lt_LT.lang.php',
       'to_module' => 'application',
       'language' => 'lt_LT',
     ),
-    22 => 
+    6 => 
     array (
-      'from' => '<basepath>/SugarModules/language/application/zh_CN.lang.php',
+      'from' => '<basepath>/SugarModules/language/application/da_DK.lang.php',
       'to_module' => 'application',
-      'language' => 'zh_CN',
+      'language' => 'da_DK',
     ),
-    23 => 
+    7 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/lv_LV.lang.php',
+      'to_module' => 'application',
+      'language' => 'lv_LV',
+    ),
+    8 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/nb_NO.lang.php',
+      'to_module' => 'application',
+      'language' => 'nb_NO',
+    ),
+    9 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/sv_SE.lang.php',
+      'to_module' => 'application',
+      'language' => 'sv_SE',
+    ),
+    10 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/hu_HU.lang.php',
+      'to_module' => 'application',
+      'language' => 'hu_HU',
+    ),
+    11 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/he_IL.lang.php',
+      'to_module' => 'application',
+      'language' => 'he_IL',
+    ),
+    12 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/es_ES.lang.php',
+      'to_module' => 'application',
+      'language' => 'es_ES',
+    ),
+    13 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/et_EE.lang.php',
+      'to_module' => 'application',
+      'language' => 'et_EE',
+    ),
+    14 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/ca_ES.lang.php',
+      'to_module' => 'application',
+      'language' => 'ca_ES',
+    ),
+    15 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/fr_FR.lang.php',
+      'to_module' => 'application',
+      'language' => 'fr_FR',
+    ),
+    16 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/ja_JP.lang.php',
+      'to_module' => 'application',
+      'language' => 'ja_JP',
+    ),
+    17 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/nl_NL.lang.php',
+      'to_module' => 'application',
+      'language' => 'nl_NL',
+    ),
+    18 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/en_us.lang.php',
+      'to_module' => 'application',
+      'language' => 'en_us',
+    ),
+    19 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/it_it.lang.php',
+      'to_module' => 'application',
+      'language' => 'it_it',
+    ),
+    20 => 
     array (
       'from' => '<basepath>/SugarModules/language/application/sr_RS.lang.php',
       'to_module' => 'application',
       'language' => 'sr_RS',
     ),
-    24 => 
-    array (
-      'from' => '<basepath>/SugarModules/language/application/en_UK.lang.php',
-      'to_module' => 'application',
-      'language' => 'en_UK',
-    ),
-    25 => 
+    21 => 
     array (
       'from' => '<basepath>/SugarModules/language/application/ru_RU.lang.php',
       'to_module' => 'application',
       'language' => 'ru_RU',
     ),
+    22 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/pl_PL.lang.php',
+      'to_module' => 'application',
+      'language' => 'pl_PL',
+    ),
+    23 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/de_DE.lang.php',
+      'to_module' => 'application',
+      'language' => 'de_DE',
+    ),
+    24 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/pt_BR.lang.php',
+      'to_module' => 'application',
+      'language' => 'pt_BR',
+    ),
+    25 => 
+    array (
+      'from' => '<basepath>/SugarModules/language/application/pt_PT.lang.php',
+      'to_module' => 'application',
+      'language' => 'pt_PT',
+    ),
     26 => 
     array (
-      'from' => '<basepath>/SugarModules/language/application/bg_BG.lang.php',
+      'from' => '<basepath>/SugarModules/language/application/ro_RO.lang.php',
       'to_module' => 'application',
-      'language' => 'bg_BG',
+      'language' => 'ro_RO',
     ),
   ),
 );

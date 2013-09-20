@@ -73,12 +73,6 @@ array (
         ),
         1 => 
         array (
-          0 => 
-          array (
-            'name' => 'parentcompany_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PARENTCOMPANY',
-          ),
           1 => 
           array (
             'name' => 'focus_account_c',

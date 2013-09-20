@@ -44,7 +44,7 @@ class CustomAccount extends Account {
 				seller2_c = $qName OR
 				seller3_c = $qName OR
 				seller4_c = $qName OR
-				opportunities.created_by = $qId
+				accounts.created_by = $qId
 				) ";
 		}
 		
