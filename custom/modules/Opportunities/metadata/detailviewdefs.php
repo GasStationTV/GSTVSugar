@@ -230,16 +230,6 @@ array (
             'name' => 'client_direct_c',
             'label' => 'LBL_CLIENT_DIRECT',
           ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'drivingagency1_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DRIVINGAGENCY1',
-          ),
         ),
         2 => 
         array (
@@ -249,30 +239,12 @@ array (
             'label' => 'LBL_RELATED_ACCOUNT_1_TYPE',
           ),
         ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'drivingagency2_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DRIVINGAGENCY2',
-          ),
-        ),
         4 => 
         array (
           0 => 
           array (
             'name' => 'related_account_2_type_c',
             'label' => 'LBL_RELATED_ACCOUNT_2_TYPE',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'drivingagency3_c',
-            'studio' => 'visible',
-            'label' => 'LBL_DRIVINGAGENCY3',
           ),
         ),
         6 => 
@@ -285,13 +257,6 @@ array (
         ),
         7 => 
         array (
-          0 => 
-          array (
-            'name' => 'outofhome_c',
-            'studio' => 'visible',
-            'label' => 'LBL_OUTOFHOME',
-          ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel7' => 

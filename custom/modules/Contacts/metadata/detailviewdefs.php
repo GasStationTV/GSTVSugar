@@ -140,12 +140,6 @@ array (
         ),
         7 => 
         array (
-          0 => 
-          array (
-            'name' => 'relatedagency_c',
-            'studio' => 'visible',
-            'label' => 'LBL_RELATEDAGENCY',
-          ),
         ),
         8 => 
         array (
@@ -243,7 +237,6 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
-          1 => '',
         ),
       ),
     ),

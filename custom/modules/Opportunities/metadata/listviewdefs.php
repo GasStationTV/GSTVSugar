@@ -61,16 +61,6 @@ array (
       0 => 'account_id',
     ),
   ),
-  'DRIVINGAGENCY1_C' => 
-  array (
-    'type' => 'relate',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_DRIVINGAGENCY1',
-    'id' => 'AGENC_AGENCIES_ID_C',
-    'link' => true,
-    'width' => '10%',
-  ),
   'ACCOUNT_MANAGER_NAME_C' => 
   array (
     'type' => 'enum',

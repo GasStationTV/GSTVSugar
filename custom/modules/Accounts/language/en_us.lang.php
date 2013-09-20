@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-20 13:15:31
+// created: 2013-09-19 23:07:53
 $mod_strings = array (
   'VALUE' => 'Category',
   'LBL_CPG' => 'CPG',
@@ -71,9 +71,7 @@ $mod_strings = array (
   'LBL_PARENT_ACCOUNT_ID' => 'Parent Advertiser ID',
   'LBL_MODULE_NAME' => 'Advertisers',
   'LBL_NAME' => 'Advertiser Name',
-  'LBL_ADV_AE_BUY' => 'Seller',
   'LBL_ADV_PRI_AE' => 'Primary Sellerx',
-  'LBL_ADV_CLIENT_AE' => 'Seller',
   'LBL_PARENTCOMPANY' => 'Parent Company',
   'LBL_PRIMARYPLANNER' => 'Primary Plannerx',
   'LBL_PRIMARYSELLER' => 'Primary Sellerx',
@@ -89,4 +87,7 @@ $mod_strings = array (
   'LBL_PCOMP_PARENTCOMPANY_ACCOUNTS_1_FROM_PCOMP_PARENTCOMPANY_TITLE' => 'Parent Parent Company',
   'LBL_EDITVIEW_PANEL2' => 'Assigned To',
   'LBL_WEBSITE' => 'Website:',
+  'LBL_SELLER3' => 'Seller 3',
+  'LBL_SELLER2' => 'Seller 2',
+  'LBL_ACCOUNTS_USERS_2_FROM_USERS_TITLE' => 'Accounts Users',
 );

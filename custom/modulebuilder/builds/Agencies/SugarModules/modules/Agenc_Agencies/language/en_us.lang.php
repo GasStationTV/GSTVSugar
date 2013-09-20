@@ -1,32 +1,20 @@
 <?php
 /*********************************************************************************
- * The contents of this file are subject to the SugarCRM Professional Subscription
- * Agreement ("License") which can be viewed at
- * http://www.sugarcrm.com/crm/products/sugar-professional-eula.html
- * By installing or using this file, You have unconditionally agreed to the
- * terms and conditions of the License, and You may not use this file except in
- * compliance with the License.  Under the terms of the license, You shall not,
- * among other things: 1) sublicense, resell, rent, lease, redistribute, assign
- * or otherwise transfer Your rights to the Software, and 2) use the Software
- * for timesharing or service bureau purposes such as hosting the Software for
- * commercial gain and/or for the benefit of a third party.  Use of the Software
- * may be subject to applicable fees and any use of the Software without first
- * paying applicable fees is strictly prohibited.  You do not have the right to
- * remove SugarCRM copyrights from the source code or user interface.
+ * By installing or using this file, you are confirming on behalf of the entity
+ * subscribed to the SugarCRM Inc. product ("Company") that Company is bound by
+ * the SugarCRM Inc. Master Subscription Agreement (“MSA”), which is viewable at:
+ * http://www.sugarcrm.com/master-subscription-agreement
  *
- * All copies of the Covered Code must include on each user interface screen:
- *  (i) the "Powered by SugarCRM" logo and
- *  (ii) the SugarCRM copyright notice
- * in the same form as they appear in the distribution.  See full license for
- * requirements.
+ * If Company is not bound by the MSA, then by installing or using this file
+ * you are agreeing unconditionally that Company will be bound by the MSA and
+ * certifying that you have authority to bind Company accordingly.
  *
- * Your Warranty, Limitations of liability and Indemnity are expressly stated
- * in the License.  Please refer to the License for the specific language
- * governing these rights and limitations under the License.  Portions created
- * by SugarCRM are Copyright (C) 2004-2009 SugarCRM, Inc.; All Rights Reserved.
+ * Copyright (C) 2004-2013 SugarCRM Inc.  All rights reserved.
  ********************************************************************************/
+
 $mod_strings = array (
   'LBL_TEAM' => 'Team',
+  'LBL_TEAMS' => 'Teams',
   'LBL_TEAM_ID' => 'Team Id',
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
@@ -43,6 +31,9 @@ $mod_strings = array (
   'LBL_NAME' => 'Name',
   'LBL_CREATED_USER' => 'Created by User',
   'LBL_MODIFIED_USER' => 'Modified by User',
+  'LBL_LIST_NAME' => 'Name',
+  'LBL_EDIT_BUTTON' => 'Edit  ',
+  'LBL_REMOVE' => 'Remove',
   'ACCOUNT_REMOVE_PROJECT_CONFIRM' => 'Are you sure you want to remove this account from this project?',
   'ERR_DELETE_RECORD' => 'A record number must be specified to delete the account.',
   'LBL_ACCOUNT_NAME' => 'Company Name:',
@@ -54,6 +45,7 @@ $mod_strings = array (
   'LBL_ANY_EMAIL' => 'Any Email:',
   'LBL_ANY_PHONE' => 'Any Phone:',
   'LBL_RATING' => 'Rating',
+  'LBL_ASSIGNED_TO' => 'Assigned to:',
   'LBL_ASSIGNED_USER' => 'Assigned to:',
   'LBL_BILLING_ADDRESS_CITY' => 'Billing City:',
   'LBL_BILLING_ADDRESS_COUNTRY' => 'Billing Country:',
@@ -92,6 +84,8 @@ $mod_strings = array (
   'LBL_PHONE_FAX' => 'Phone Fax:',
   'LBL_PHONE_OFFICE' => 'Phone Office:',
   'LBL_PHONE' => 'Phone:',
+  'LBL_EMAIL_ADDRESS' => 'Email Address',
+  'LBL_EMAIL_ADDRESSES' => 'Email Address(es)',
   'LBL_POSTAL_CODE' => 'Postal Code:',
   'LBL_PUSH_BILLING' => 'Push Billing',
   'LBL_PUSH_SHIPPING' => 'Push Shipping',
@@ -137,5 +131,5 @@ $mod_strings = array (
   'LBL_NEW_FORM_TITLE' => 'New Agencies',
   'VALUE' => 'Annual Ad Budget:',
   'LBL_AGENCY_TYPE' => 'Agency Type',
+  'LNK_IMPORT_AGENC_AGENCIES' => 'Import Agencies',
 );
-?>

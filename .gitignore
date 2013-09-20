@@ -36,3 +36,7 @@ custom/modules/*/Ext/
 custom/application/Ext/*
 custom/modules/unified_search_modules_display.php
 custom/metadata/props_proposals_opportunitiesMetaData.php
+custom/Extension/modules/*/Ext/Language/
+custom/Extension/application/Ext/Include/
+custom/Extension/application/Ext/Language/
+custom/Extension/application/Ext/TableDictionary/

@@ -1,5 +1,5 @@
 <?php
-// created: 2010-05-26 21:45:32
+// created: 2013-09-19 23:14:15
 $dictionary["agenc_agencies_accounts"] = array (
   'true_relationship_type' => 'one-to-many',
   'relationships' => 
@@ -14,8 +14,8 @@ $dictionary["agenc_agencies_accounts"] = array (
       'rhs_key' => 'id',
       'relationship_type' => 'many-to-many',
       'join_table' => 'agenc_agencies_accounts_c',
-      'join_key_lhs' => 'agenc_agena415gencies_ida',
-      'join_key_rhs' => 'agenc_agenc89eccounts_idb',
+      'join_key_lhs' => 'agenc_agencies_accountsagenc_agencies_ida',
+      'join_key_rhs' => 'agenc_agencies_accountsaccounts_idb',
     ),
   ),
   'table' => 'agenc_agencies_accounts_c',
@@ -42,13 +42,13 @@ $dictionary["agenc_agencies_accounts"] = array (
     ),
     3 => 
     array (
-      'name' => 'agenc_agena415gencies_ida',
+      'name' => 'agenc_agencies_accountsagenc_agencies_ida',
       'type' => 'varchar',
       'len' => 36,
     ),
     4 => 
     array (
-      'name' => 'agenc_agenc89eccounts_idb',
+      'name' => 'agenc_agencies_accountsaccounts_idb',
       'type' => 'varchar',
       'len' => 36,
     ),
@@ -70,7 +70,7 @@ $dictionary["agenc_agencies_accounts"] = array (
       'type' => 'index',
       'fields' => 
       array (
-        0 => 'agenc_agena415gencies_ida',
+        0 => 'agenc_agencies_accountsagenc_agencies_ida',
       ),
     ),
     2 => 
@@ -79,9 +79,8 @@ $dictionary["agenc_agencies_accounts"] = array (
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'agenc_agenc89eccounts_idb',
+        0 => 'agenc_agencies_accountsaccounts_idb',
       ),
     ),
   ),
 );
-?>

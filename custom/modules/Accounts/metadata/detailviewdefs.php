@@ -166,9 +166,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'adv_client_ae_c',
+            'name' => 'seller2_c',
             'studio' => 'visible',
-            'label' => 'LBL_ADV_CLIENT_AE',
+            'label' => 'LBL_SELLER2',
           ),
         ),
         7 => 
@@ -181,9 +181,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'adv_ae_buy_c',
+            'name' => 'seller3_c',
             'studio' => 'visible',
-            'label' => 'LBL_ADV_AE_BUY',
+            'label' => 'LBL_SELLER3',
           ),
         ),
         8 => 
@@ -201,111 +201,12 @@ array (
             'label' => 'LBL_SELLER4',
           ),
         ),
-      ),
-      'lbl_panel1' => 
-      array (
-        0 => 
+        9 => 
         array (
           0 => 
           array (
             'name' => 'agenc_agencies_accounts_name',
             'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_11_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_11_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_12_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_12_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_9_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_9_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_10_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_10_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_13_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_13_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_14_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_14_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        7 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_3_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_3_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        8 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_4_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_4_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        9 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_5_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_5_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        10 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_6_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_6_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        11 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_7_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_7_FROM_AGENC_AGENCIES_TITLE',
-          ),
-        ),
-        12 => 
-        array (
-          0 => 
-          array (
-            'name' => 'agenc_agencies_accounts_8_name',
-            'label' => 'LBL_AGENC_AGENCIES_ACCOUNTS_8_FROM_AGENC_AGENCIES_TITLE',
           ),
         ),
       ),
@@ -318,7 +219,7 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO',
           ),
-          1 => '',
+          1 => 'team_name',
         ),
       ),
     ),
