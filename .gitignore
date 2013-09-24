@@ -29,14 +29,14 @@
 /crossdomain.xml
 
 # Ignore some files and directories from the custom directory.
-custom/history/*
-custom/modulebuilder/*
-custom/working/*
-custom/modules/*/Ext/
-custom/application/Ext/*
-custom/modules/unified_search_modules_display.php
-custom/metadata/props_proposals_opportunitiesMetaData.php
-custom/Extension/modules/*/Ext/Language/
-custom/Extension/application/Ext/Include/
-custom/Extension/application/Ext/Language/
-custom/Extension/application/Ext/TableDictionary/
+/custom/history/*
+/custom/modulebuilder/*
+/custom/working/*
+/custom/modules/*/Ext/
+/custom/application/Ext/*
+/custom/modules/unified_search_modules_display.php
+/custom/metadata/props_proposals_opportunitiesMetaData.php
+/custom/Extension/modules/*/Ext/Language/
+/custom/Extension/application/Ext/Include/
+/custom/Extension/application/Ext/TableDictionary/
+/custom/**/Language/
