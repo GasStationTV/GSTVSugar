@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-20 13:01:55
+// created: 2013-09-26 08:45:18
 $mod_strings = array (
   'VALUE' => 'Job Title:',
   'LBL_HISTORY' => 'History',
@@ -40,4 +40,5 @@ $mod_strings = array (
   'LBL_FAX_PHONE' => 'Fax:',
   'LBL_DEPARTMENT' => 'Department:',
   'LBL_ASSISTANT' => 'Assistant:',
+  'LBL_NOTES' => 'Notes',
 );

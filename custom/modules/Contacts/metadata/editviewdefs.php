@@ -139,9 +139,6 @@ array (
         ),
         7 => 
         array (
-        ),
-        8 => 
-        array (
           0 => 
           array (
             'name' => 'rel_adver_1_c',
@@ -149,7 +146,7 @@ array (
             'label' => 'LBL_REL_ADVER_1',
           ),
         ),
-        9 => 
+        8 => 
         array (
           0 => 
           array (
@@ -158,7 +155,7 @@ array (
             'label' => 'LBL_REL_ADVER_2',
           ),
         ),
-        10 => 
+        9 => 
         array (
           0 => 
           array (
@@ -167,7 +164,7 @@ array (
             'label' => 'LBL_REL_ADVER_3',
           ),
         ),
-        11 => 
+        10 => 
         array (
           0 => 
           array (
@@ -176,7 +173,7 @@ array (
             'label' => 'LBL_TITLE',
           ),
         ),
-        12 => 
+        11 => 
         array (
           0 => 
           array (
@@ -184,7 +181,7 @@ array (
             'label' => 'LBL_DEPARTMENT',
           ),
         ),
-        13 => 
+        12 => 
         array (
           0 => 
           array (
@@ -192,7 +189,7 @@ array (
             'label' => 'LBL_ASSISTANT',
           ),
         ),
-        14 => 
+        13 => 
         array (
           0 => 
           array (
@@ -201,7 +198,7 @@ array (
             'label' => 'LBL_PRIMARY_ADDRESS_CITY',
           ),
         ),
-        15 => 
+        14 => 
         array (
           0 => 
           array (

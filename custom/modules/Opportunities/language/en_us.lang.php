@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-14 13:53:51
+// created: 2013-09-26 09:27:45
 $mod_strings = array (
   'VALUE' => 'Is product one of these?',
   'LBL_ACCOUNT_2' => 'Account 2',
@@ -66,7 +66,7 @@ $mod_strings = array (
   'LBL_ACCOUNT_EXEC_2' => 'Seller',
   'LBL_PRIORITY' => 'Priority',
   'LBL_CLIENT_AE' => 'Seller',
-  'LBL_DIVISION' => 'Division',
+  'LBL_DIVISION' => 'GSTV Division',
   'LBL_PRIMARY_AE' => 'Primary Seller',
   'LBL_PROJ_AMOUNT' => 'Projected Amount',
   'LBL_ACCOUNTS' => 'Advertisers',
