@@ -27,11 +27,24 @@ class CustomOpportunity extends Opportunity {
      * @return String select query string, optionally an array value will be returned if $return_array= true.
      */
 	function create_new_list_query($orderBy, $where, $filter_fields, $params, $show_deleted = 0,  $join_type = '', $return_array = false,  SugarBean $parentBean = null, $singleSelect = false) {
-	
 		global $current_user;
 		$plannerSeller = $current_user->check_role_membership('Planners') || $current_user->check_role_membership('Sellers');
+		// check for My Items Only
+		if ($filter_fields['current_user_only']) $myItems = 1;
+		
+		if ($myItems) { 
+			// strip off the condition for ONLY the assigned_user_id
+			// we want to look in ALL the planner* and seller* fields.
+			// AND (opportunities.assigned_user_id = '1') AND
+			$where = preg_replace('/\(\s*opportunities\.assigned_user_id = \'[-\d\w]*\'\s*\)/', "", $where);
+			$where = preg_replace('/^\s*AND/', "", $where);
+			$where = preg_replace('/AND\s*AND/', "AND", $where);
+			$where = preg_replace('/AND\s*$/', "", $where);
+			// print_r($where);exit;
+		}
+		
 		// admins see all, planners/sellers restricted
-		if (!is_admin($current_user) && $plannerSeller) { 
+		if (!is_admin($current_user) && $plannerSeller || $myItems) { 
 			// restrict list to only planners and sellers
 			if (!empty($where)) $where .= " AND ";
 			$qName = $this->db->quoted($current_user->name);
