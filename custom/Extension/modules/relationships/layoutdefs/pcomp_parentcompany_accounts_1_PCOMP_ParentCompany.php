@@ -1,5 +1,5 @@
 <?php
- // created: 2013-07-18 11:13:21
+ // created: 2013-09-26 12:40:05
 $layout_defs["PCOMP_ParentCompany"]["subpanel_setup"]['pcomp_parentcompany_accounts_1'] = array (
   'order' => 100,
   'module' => 'Accounts',

@@ -1,10 +1,10 @@
 <?php
-// created: 2013-09-26 09:27:45
+// created: 2013-10-07 13:27:27
 $mod_strings = array (
   'VALUE' => 'Is product one of these?',
   'LBL_ACCOUNT_2' => 'Account 2',
-  'LBL_ACCOUNT_NAME_2' => 'Driving Advertiser 2 ',
-  'LBL_ACCOUNT_NAME_3' => 'Driving Advertiser 3 ',
+  'LBL_ACCOUNT_NAME_2' => 'Driving Agency 2x',
+  'LBL_ACCOUNT_NAME_3' => 'Driving Agency 3x',
   'LBL_ACCOUNT_NAME_4' => 'Related Account Name 4:',
   'LBL_ACCOUNT_NAME' => 'Advertiser',
   'LBL_PRIMARY_ACCOUNT_TYPE' => 'Primary Account Category',
@@ -48,7 +48,7 @@ $mod_strings = array (
   'LBL_PROBABILITY_DROPDOWN' => 'Sales Stage',
   'LBL_LEAD_SOURCE' => 'Renewal',
   'LBL_RELATED_ACCOUNT_NAME_1' => 'Related Account Name 1',
-  'LBL_ACCOUNT_NAME_1' => 'Driving Advertiser 1',
+  'LBL_ACCOUNT_NAME_1' => 'Driving Agency 1x',
   'LBL_RELATED_ACCOUNT_1_TYPE' => 'Agency 1 Type ',
   'LBL_TYPE' => 'Lead Type:',
   'LBL_LIST_SALES_STAGE' => 'Stage of Opportunity',
@@ -106,4 +106,5 @@ $mod_strings = array (
   'LBL_PROPS_PROPOSALS_OPPORTUNITIES_FROM_PROPS_PROPOSALS_TITLE' => 'Proposals',
   'LBL_CLOSEDAMOUNT' => 'Closed Amount',
   'LBL_OUTOFHOME' => 'Out of Home',
+  'LBL_CURRENT_PROJECT_AMT' => 'Current Project Amt',
 );

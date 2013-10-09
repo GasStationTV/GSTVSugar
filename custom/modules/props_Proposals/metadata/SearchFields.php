@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-09 13:33:09
+// created: 2013-09-26 14:46:06
 $searchFields['props_Proposals'] = array (
   'name' => 
   array (

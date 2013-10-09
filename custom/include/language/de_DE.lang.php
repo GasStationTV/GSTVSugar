@@ -37,15 +37,6 @@ $GLOBALS['app_list_strings']['GSTV_divisions_list']=array (
   'Regional' => 'Regional',
   'Local' => 'Local',
 );
-$GLOBALS['app_list_strings']['sales_stage_dom']=array (
-  '' => '',
-  'Opportunity' => 'Opportunity',
-  'Negotiating' => 'Negotiating',
-  'Closed Won' => 'Closed Won',
-  'Closed Lost' => 'Closed Lost',
-  'Proactive Proposal' => 'GSTV Initiated',
-  'Proposal' => 'Client Requested',
-);
 $GLOBALS['app_list_strings']['GSTV_mapping_list']=array (
   '' => '',
   'GSTV Locations Only' => 'GSTV Locations Only',
@@ -149,4 +140,14 @@ $GLOBALS['app_list_strings']['GSTV_restrictions_list']=array (
   'Tobacco' => 'Tobacco',
   'QSR' => 'QSR',
   'None' => 'None',
+);
+$GLOBALS['app_list_strings']['sales_stage_dom']=array (
+  '' => '',
+  'Opportunity' => 'Opportunity',
+  'Negotiating' => 'Negotiating',
+  'Closed Won' => 'Closed Won',
+  'Closed Lost' => 'Closed Lost',
+  'Proactive Proposal' => 'GSTV Initiated',
+  'Proposal' => 'Client Requested',
+  'Closed_Revised' => 'Closed Revised',
 );

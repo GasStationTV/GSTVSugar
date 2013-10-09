@@ -25,8 +25,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['edcee655_d6d0_c569_2408_5208f69e4f02'])){
-		$triggeredWorkflows['edcee655_d6d0_c569_2408_5208f69e4f02'] = true;
+	if (!isset($triggeredWorkflows['79e68593_9211_c54c_e3c4_5254a4b1f947'])){
+		$triggeredWorkflows['79e68593_9211_c54c_e3c4_5254a4b1f947'] = true;
 		 process_workflow_actions($focus, $action_meta_array['Opportunities0_action0']); 
  	 process_workflow_actions($focus, $action_meta_array['Opportunities0_action1']); 
  	$_SESSION['WORKFLOW_ALERTS'] = isset($_SESSION['WORKFLOW_ALERTS']) && is_array($_SESSION['WORKFLOW_ALERTS']) ? $_SESSION['WORKFLOW_ALERTS'] : array();
@@ -61,8 +61,8 @@ if(isset($focus->fetched_row['id']) && $focus->fetched_row['id']!=""){
 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['eec8f04e_aef6_43e9_5390_5208f63da847'])){
-		$triggeredWorkflows['eec8f04e_aef6_43e9_5390_5208f63da847'] = true;
+	if (!isset($triggeredWorkflows['7ae09eb9_2b4e_88a0_cce3_5254a470dc8c'])){
+		$triggeredWorkflows['7ae09eb9_2b4e_88a0_cce3_5254a470dc8c'] = true;
 		 unset($alertshell_array); 
 		 process_workflow_actions($focus, $action_meta_array['Opportunities1_action0']); 
  	}
@@ -81,6 +81,32 @@ if(isset($focus->fetched_row['id']) && $focus->fetched_row['id']!=""){
 
 		 //End if new, update, or all record
  		} 
+
+
+ if(true){ 
+ 
+
+	 //Frame Secondary 
+
+	 $secondary_array = array(); 
+	 //Secondary Triggers 
+
+	global $triggeredWorkflows;
+	if (!isset($triggeredWorkflows['7bda9357_98a4_db66_97b2_5254a43b82b5'])){
+		$triggeredWorkflows['7bda9357_98a4_db66_97b2_5254a43b82b5'] = true;
+		 process_workflow_actions($focus, $action_meta_array['Opportunities2_action0']); 
+ 	$_SESSION['WORKFLOW_ALERTS'] = isset($_SESSION['WORKFLOW_ALERTS']) && is_array($_SESSION['WORKFLOW_ALERTS']) ? $_SESSION['WORKFLOW_ALERTS'] : array();
+		$_SESSION['WORKFLOW_ALERTS']['Opportunities'] = isset($_SESSION['WORKFLOW_ALERTS']['Opportunities']) && is_array($_SESSION['WORKFLOW_ALERTS']['Opportunities']) ? $_SESSION['WORKFLOW_ALERTS']['Opportunities'] : array();
+		$_SESSION['WORKFLOW_ALERTS']['Opportunities'] = array_merge($_SESSION['WORKFLOW_ALERTS']['Opportunities'],array ());	}
+ 
+
+	 //End Frame Secondary 
+
+	 unset($secondary_array); 
+ 
+
+ //End if trigger is true 
+ } 
 
 
 	//end function process_wflow_triggers

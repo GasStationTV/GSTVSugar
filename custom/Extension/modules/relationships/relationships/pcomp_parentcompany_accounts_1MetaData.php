@@ -1,7 +1,7 @@
 <?php
-// created: 2013-07-18 11:13:21
+// created: 2013-09-26 12:40:05
 $dictionary["pcomp_parentcompany_accounts_1"] = array (
-  'true_relationship_type' => 'one-to-many',
+  'true_relationship_type' => 'many-to-many',
   'from_studio' => true,
   'relationships' => 
   array (
@@ -67,20 +67,12 @@ $dictionary["pcomp_parentcompany_accounts_1"] = array (
     ),
     1 => 
     array (
-      'name' => 'pcomp_parentcompany_accounts_1_ida1',
-      'type' => 'index',
-      'fields' => 
-      array (
-        0 => 'pcomp_parentcompany_accounts_1pcomp_parentcompany_ida',
-      ),
-    ),
-    2 => 
-    array (
       'name' => 'pcomp_parentcompany_accounts_1_alt',
       'type' => 'alternate_key',
       'fields' => 
       array (
-        0 => 'pcomp_parentcompany_accounts_1accounts_idb',
+        0 => 'pcomp_parentcompany_accounts_1pcomp_parentcompany_ida',
+        1 => 'pcomp_parentcompany_accounts_1accounts_idb',
       ),
     ),
   ),

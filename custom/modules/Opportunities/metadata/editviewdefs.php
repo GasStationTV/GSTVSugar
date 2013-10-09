@@ -188,11 +188,19 @@ array (
           ),
           1 => 
           array (
+            'name' => 'current_project_amt_c',
+            'label' => 'LBL_CURRENT_PROJECT_AMT',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
             'name' => 'closedamount_c',
             'label' => 'LBL_CLOSEDAMOUNT',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -205,7 +213,7 @@ array (
             'label' => 'LBL_FLIGHT_END_DATE',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -224,12 +232,30 @@ array (
             'label' => 'LBL_CLIENT_DIRECT',
           ),
         ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'drivingagency1_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRIVINGAGENCY1',
+          ),
+        ),
         2 => 
         array (
           0 => 
           array (
             'name' => 'related_account_1_type_c',
             'label' => 'LBL_RELATED_ACCOUNT_1_TYPE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'drivingagency2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRIVINGAGENCY2',
           ),
         ),
         4 => 
@@ -240,16 +266,39 @@ array (
             'label' => 'LBL_RELATED_ACCOUNT_2_TYPE',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'drivingagency3_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DRIVINGAGENCY3',
+          ),
+        ),
         6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'created_by_name',
+            'label' => 'LBL_CREATED',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'opp_excel_sheet_c',
+            'studio' => 'visible',
+            'label' => 'LBL_OPP_EXCEL_SHEET',
+          ),
+        ),
+        8 => 
         array (
           0 => 
           array (
             'name' => 'related_account_3_type_c',
             'label' => 'LBL_RELATED_ACCOUNT_3_TYPE',
           ),
-        ),
-        7 => 
-        array (
         ),
       ),
       'lbl_editview_panel7' => 
@@ -263,6 +312,14 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ASSIGNED_EMPLOYEE',
           ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'team_name',
+          ),
+          1 => '',
         ),
       ),
     ),

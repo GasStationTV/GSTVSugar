@@ -1,5 +1,5 @@
 <?php
- // created: 2013-07-02 18:07:47
+ // created: 2013-09-26 15:36:18
 $dictionary['Opportunity']['fields']['sales_stage']['len']=100;
 $dictionary['Opportunity']['fields']['sales_stage']['comments']='Indication of progression towards closure';
 $dictionary['Opportunity']['fields']['sales_stage']['merge_filter']='disabled';

@@ -67,6 +67,19 @@ array (
         array (
           0 => 
           array (
+            'name' => 'mapping_only_c',
+            'label' => 'LBL_MAPPING_ONLY',
+          ),
+          1 => 
+          array (
+            'name' => 'pricing_only_c',
+            'label' => 'LBL_PRICING_ONLY',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'tracking_number_c',
             'label' => 'LBL_TRACKING_NUMBER_C',
           ),
@@ -76,7 +89,7 @@ array (
             'label' => 'LBL_OPPORTUNITY_NO',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 'name',
           1 => 
@@ -85,7 +98,7 @@ array (
             'label' => 'LBL_OPPORTUNITY_NAME',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -98,7 +111,7 @@ array (
             'label' => 'LBL_PROPOSALAMOUNT',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -111,7 +124,7 @@ array (
             'label' => 'LBL_FLIGHTENDDATE',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -126,7 +139,20 @@ array (
             'label' => 'LBL_SPOTLENGTH2',
           ),
         ),
-        5 => 
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cpm_c',
+            'label' => 'LBL_CPM',
+          ),
+          1 => 
+          array (
+            'name' => 'cpm2_c',
+            'label' => 'LBL_CPM2',
+          ),
+        ),
+        7 => 
         array (
           0 => 
           array (
@@ -141,16 +167,7 @@ array (
             'label' => 'LBL_SOVFREQUENCY',
           ),
         ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'cpm_c',
-            'label' => 'LBL_CPM',
-          ),
-          1 => '',
-        ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -164,7 +181,7 @@ array (
             'label' => 'LBL_TARGETDEMO',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -179,7 +196,7 @@ array (
             'label' => 'LBL_ADD_VALUE_BONUS',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -192,6 +209,46 @@ array (
             'name' => 'completeddate_c',
             'label' => 'LBL_COMPLETEDDATE',
           ),
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'salesstage_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SALESSTAGE',
+          ),
+          1 => '',
+        ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'planner1_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PLANNER1',
+          ),
+          1 => '',
+        ),
+        13 => 
+        array (
+          0 => 
+          array (
+            'name' => 'planner2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PLANNER2',
+          ),
+          1 => '',
+        ),
+        14 => 
+        array (
+          0 => 
+          array (
+            'name' => 'planner3_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PLANNER3',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel1' => 

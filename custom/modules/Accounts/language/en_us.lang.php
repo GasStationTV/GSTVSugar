@@ -1,5 +1,5 @@
 <?php
-// created: 2013-09-19 23:07:53
+// created: 2013-09-26 13:13:00
 $mod_strings = array (
   'VALUE' => 'Category',
   'LBL_CPG' => 'CPG',
@@ -90,4 +90,6 @@ $mod_strings = array (
   'LBL_SELLER3' => 'Seller 3',
   'LBL_SELLER2' => 'Seller 2',
   'LBL_ACCOUNTS_USERS_2_FROM_USERS_TITLE' => 'Accounts Users',
+  'LBL_EDITVIEW_PANEL3' => 'Agency Information',
+  'LBL_EDITVIEW_PANEL4' => 'New Panel 4',
 );

@@ -1,5 +1,5 @@
 <?php
-// created: 2013-08-14 13:57:00
+// created: 2013-10-08 15:46:54
 $mod_strings = array (
   'LBL_TRACKING_NUMBER_C' => 'Proposal Number',
   'LBL_PROPS_PROPOSALS_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE' => 'Opportunities',
@@ -10,4 +10,14 @@ $mod_strings = array (
   'LBL_COMPLETEDDATE' => 'Completed Date',
   'LBL_CPM' => 'CPM',
   'LBL_EDITVIEW_PANEL4' => 'Assigned To',
+  'LBL_CPM2' => 'CPM 2',
+  'LBL_DAYPARTING' => 'Daypart Details',
+  'LBL_TARGETDEMO' => 'Target Demo',
+  'LBL_PROPOSALAMOUNT' => 'Estimated Budget',
+  'LBL_PRICING_ONLY' => 'Pricing Only',
+  'LBL_MAPPING_ONLY' => 'Mapping Only',
+  'LBL_SALESSTAGE' => 'Sales Stage',
+  'LBL_PLANNER1' => 'Primary Planner',
+  'LBL_PLANNER2' => 'Planner 1',
+  'LBL_PLANNER3' => 'Planner 2',
 );
