@@ -29,8 +29,10 @@ class CustomOpportunity extends Opportunity {
 	function create_new_list_query($orderBy, $where, $filter_fields, $params, $show_deleted = 0,  $join_type = '', $return_array = false,  SugarBean $parentBean = null, $singleSelect = false) {
 		global $current_user;
 		$plannerSeller = $current_user->check_role_membership('Planners') || $current_user->check_role_membership('Sellers');
+		// print_r($filter_fields);exit;
+		// print_r($where);
 		// check for My Items Only
-		if ($filter_fields['current_user_only']) $myItems = 1;
+		if ($filter_fields['current_user_only'] || strstr($where, 'assigned_user_id') ) $myItems = 1;
 		
 		if ($myItems) { 
 			// strip off the condition for ONLY the assigned_user_id
