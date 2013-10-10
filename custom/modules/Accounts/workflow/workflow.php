@@ -23,8 +23,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['8fefb62c_362a_ed63_607c_5254a9afdae0'])){
-		$triggeredWorkflows['8fefb62c_362a_ed63_607c_5254a9afdae0'] = true;
+	if (!isset($triggeredWorkflows['17710aae_23a9_2b1a_9067_5256cf6cd868'])){
+		$triggeredWorkflows['17710aae_23a9_2b1a_9067_5256cf6cd868'] = true;
 		 process_workflow_actions($focus, $action_meta_array['Accounts0_action0']); 
  	$_SESSION['WORKFLOW_ALERTS'] = isset($_SESSION['WORKFLOW_ALERTS']) && is_array($_SESSION['WORKFLOW_ALERTS']) ? $_SESSION['WORKFLOW_ALERTS'] : array();
 		$_SESSION['WORKFLOW_ALERTS']['Accounts'] = isset($_SESSION['WORKFLOW_ALERTS']['Accounts']) && is_array($_SESSION['WORKFLOW_ALERTS']['Accounts']) ? $_SESSION['WORKFLOW_ALERTS']['Accounts'] : array();

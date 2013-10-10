@@ -23,8 +23,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['13bd1988_d29c_1026_55cf_52426d06a806'])){
-		$triggeredWorkflows['13bd1988_d29c_1026_55cf_52426d06a806'] = true;
+	if (!isset($triggeredWorkflows['f290d996_80a6_d234_3215_5256cfe29043'])){
+		$triggeredWorkflows['f290d996_80a6_d234_3215_5256cfe29043'] = true;
 		 process_workflow_actions($focus, $action_meta_array['props_Proposals0_action0']); 
  	$_SESSION['WORKFLOW_ALERTS'] = isset($_SESSION['WORKFLOW_ALERTS']) && is_array($_SESSION['WORKFLOW_ALERTS']) ? $_SESSION['WORKFLOW_ALERTS'] : array();
 		$_SESSION['WORKFLOW_ALERTS']['props_Proposals'] = isset($_SESSION['WORKFLOW_ALERTS']['props_Proposals']) && is_array($_SESSION['WORKFLOW_ALERTS']['props_Proposals']) ? $_SESSION['WORKFLOW_ALERTS']['props_Proposals'] : array();

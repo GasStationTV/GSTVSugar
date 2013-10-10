@@ -14,7 +14,8 @@ class CustomAgenc_AgenciesController extends SugarController {
 		// echo "handle_action()<br>\n"; die;
 		// var_dump($this->bean); echo "<p>\n";
 		
-        $this->bean = new CustomAgenc_Agencies(); 
+//        $this->bean = new CustomAgenc_Agencies(); 
+        $this->bean = new Agenc_Agencies(); 
 		
 		// Apparently in handle_action the bean/record is already loaded. Must reload it for custom beans.
 		if(!empty($this->record)){

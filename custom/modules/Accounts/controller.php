@@ -13,7 +13,8 @@ class CustomAccountsController extends SugarController {
     protected function action_listview() { 
 		
 		//Instantiate new object of this extended class 
-        $this->bean = new CustomAccount(); 
+//        $this->bean = new CustomAccount(); 
+        $this->bean = new Account(); 
 		parent::action_listview();
     } 
 

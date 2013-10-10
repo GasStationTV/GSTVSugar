@@ -25,8 +25,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['79e68593_9211_c54c_e3c4_5254a4b1f947'])){
-		$triggeredWorkflows['79e68593_9211_c54c_e3c4_5254a4b1f947'] = true;
+	if (!isset($triggeredWorkflows['e28c3447_a1d8_1e1e_8e4f_5256d08d6d49'])){
+		$triggeredWorkflows['e28c3447_a1d8_1e1e_8e4f_5256d08d6d49'] = true;
 		 process_workflow_actions($focus, $action_meta_array['Opportunities0_action0']); 
  	 process_workflow_actions($focus, $action_meta_array['Opportunities0_action1']); 
  	$_SESSION['WORKFLOW_ALERTS'] = isset($_SESSION['WORKFLOW_ALERTS']) && is_array($_SESSION['WORKFLOW_ALERTS']) ? $_SESSION['WORKFLOW_ALERTS'] : array();
@@ -61,8 +61,8 @@ if(isset($focus->fetched_row['id']) && $focus->fetched_row['id']!=""){
 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['7ae09eb9_2b4e_88a0_cce3_5254a470dc8c'])){
-		$triggeredWorkflows['7ae09eb9_2b4e_88a0_cce3_5254a470dc8c'] = true;
+	if (!isset($triggeredWorkflows['e48033c7_2857_f73d_ec8f_5256d04c24d8'])){
+		$triggeredWorkflows['e48033c7_2857_f73d_ec8f_5256d04c24d8'] = true;
 		 unset($alertshell_array); 
 		 process_workflow_actions($focus, $action_meta_array['Opportunities1_action0']); 
  	}
@@ -92,8 +92,8 @@ if(isset($focus->fetched_row['id']) && $focus->fetched_row['id']!=""){
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['7bda9357_98a4_db66_97b2_5254a43b82b5'])){
-		$triggeredWorkflows['7bda9357_98a4_db66_97b2_5254a43b82b5'] = true;
+	if (!isset($triggeredWorkflows['e48034f3_2881_cdeb_8177_5256d0133a64'])){
+		$triggeredWorkflows['e48034f3_2881_cdeb_8177_5256d0133a64'] = true;
 		 process_workflow_actions($focus, $action_meta_array['Opportunities2_action0']); 
  	$_SESSION['WORKFLOW_ALERTS'] = isset($_SESSION['WORKFLOW_ALERTS']) && is_array($_SESSION['WORKFLOW_ALERTS']) ? $_SESSION['WORKFLOW_ALERTS'] : array();
 		$_SESSION['WORKFLOW_ALERTS']['Opportunities'] = isset($_SESSION['WORKFLOW_ALERTS']['Opportunities']) && is_array($_SESSION['WORKFLOW_ALERTS']['Opportunities']) ? $_SESSION['WORKFLOW_ALERTS']['Opportunities'] : array();
