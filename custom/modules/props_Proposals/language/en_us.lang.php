@@ -1,5 +1,5 @@
 <?php
-// created: 2013-10-08 15:46:54
+// created: 2013-10-11 14:36:56
 $mod_strings = array (
   'LBL_TRACKING_NUMBER_C' => 'Proposal Number',
   'LBL_PROPS_PROPOSALS_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE' => 'Opportunities',
@@ -20,4 +20,5 @@ $mod_strings = array (
   'LBL_PLANNER1' => 'Primary Planner',
   'LBL_PLANNER2' => 'Planner 1',
   'LBL_PLANNER3' => 'Planner 2',
+  'LBL_MATCHED_LOC' => 'Specify Number of Matched Locations Needed',
 );

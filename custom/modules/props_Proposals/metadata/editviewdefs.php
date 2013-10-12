@@ -422,7 +422,11 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'team_name',
+            'label' => 'LBL_TEAMS',
+          ),
         ),
       ),
     ),
