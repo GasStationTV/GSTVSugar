@@ -97,6 +97,15 @@ array (
         array (
           0 => 
           array (
+            'name' => 'proposal_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PROPOSAL_STATUS',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
             'name' => 'proposalneededby',
             'label' => 'LBL_PROPOSALNEEDEDBY',
           ),
@@ -106,7 +115,7 @@ array (
             'label' => 'LBL_PROPOSALAMOUNT',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -119,7 +128,7 @@ array (
             'label' => 'LBL_FLIGHTENDDATE',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -134,7 +143,7 @@ array (
             'label' => 'LBL_SPOTLENGTH2',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -147,7 +156,7 @@ array (
             'label' => 'LBL_CPM2',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -162,7 +171,7 @@ array (
             'label' => 'LBL_SOVFREQUENCY',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -176,7 +185,7 @@ array (
             'label' => 'LBL_TARGETDEMO',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -191,7 +200,7 @@ array (
             'label' => 'LBL_ADD_VALUE_BONUS',
           ),
         ),
-        10 => 
+        11 => 
         array (
           0 => 
           array (
@@ -206,7 +215,7 @@ array (
             'type' => 'readonly',
           ),
         ),
-        11 => 
+        12 => 
         array (
           0 => 
           array (
@@ -216,7 +225,7 @@ array (
           ),
           1 => '',
         ),
-        12 => 
+        13 => 
         array (
           0 => 
           array (
@@ -226,7 +235,7 @@ array (
           ),
           1 => '',
         ),
-        13 => 
+        14 => 
         array (
           0 => 
           array (
@@ -236,7 +245,7 @@ array (
           ),
           1 => '',
         ),
-        14 => 
+        15 => 
         array (
           0 => 
           array (

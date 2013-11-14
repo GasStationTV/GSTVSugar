@@ -1,5 +1,5 @@
 <?php
-// created: 2013-10-11 14:36:56
+// created: 2013-10-24 15:38:01
 $mod_strings = array (
   'LBL_TRACKING_NUMBER_C' => 'Proposal Number',
   'LBL_PROPS_PROPOSALS_OPPORTUNITIES_FROM_OPPORTUNITIES_TITLE' => 'Opportunities',
@@ -13,7 +13,7 @@ $mod_strings = array (
   'LBL_CPM2' => 'CPM 2',
   'LBL_DAYPARTING' => 'Daypart Details',
   'LBL_TARGETDEMO' => 'Target Demo',
-  'LBL_PROPOSALAMOUNT' => 'Estimated Budget',
+  'LBL_PROPOSALAMOUNT' => 'Proposal Amount',
   'LBL_PRICING_ONLY' => 'Pricing Only',
   'LBL_MAPPING_ONLY' => 'Mapping Only',
   'LBL_SALESSTAGE' => 'Sales Stage',
@@ -21,4 +21,10 @@ $mod_strings = array (
   'LBL_PLANNER2' => 'Planner 1',
   'LBL_PLANNER3' => 'Planner 2',
   'LBL_MATCHED_LOC' => 'Specify Number of Matched Locations Needed',
+  'LBL_QUICKCREATE_PANEL1' => 'Assigned To',
+  'LBL_SOVFREQUENCY' => 'SOV/Frequency',
+  'LBL_GSTV_VS_CLIENT' => 'GSTV vs Client Locations?',
+  'LBL_NEED_CLI_LOC_LIST' => 'Need Client Location List Pulled From AgData.com?',
+  'LBL_SPOTLENGTH1' => 'Spot Length 1',
+  'LBL_PROPOSAL_STATUS' => 'Proposal Status',
 );

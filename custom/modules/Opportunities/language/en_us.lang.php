@@ -1,5 +1,5 @@
 <?php
-// created: 2013-10-07 13:27:27
+// created: 2013-10-17 15:50:30
 $mod_strings = array (
   'VALUE' => 'Is product one of these?',
   'LBL_ACCOUNT_2' => 'Account 2',
@@ -41,7 +41,7 @@ $mod_strings = array (
   'LBL_SALES_PPT' => 'Include General Sales PPT',
   'LBL_RESEARCH' => 'Research',
   'LBL_EXISTING_CASE_STUDY' => 'Existing Case Study',
-  'LBL_AMOUNT' => 'Proposal Amount',
+  'LBL_AMOUNT' => 'Proposal AmountX',
   'LBL_PANEL4' => 'Opportunity Information',
   'LBL_RESTRICTIONS' => 'Is product one of these?',
   'LBL_PROBABILITY' => 'Probability (int) (dont use)',
@@ -68,7 +68,7 @@ $mod_strings = array (
   'LBL_CLIENT_AE' => 'Seller',
   'LBL_DIVISION' => 'GSTV Division',
   'LBL_PRIMARY_AE' => 'Primary Seller',
-  'LBL_PROJ_AMOUNT' => 'Projected Amount',
+  'LBL_PROJ_AMOUNT' => 'Proposal Amount',
   'LBL_ACCOUNTS' => 'Advertisers',
   'LBL_ACCOUNT_ID' => 'Advertiser ID',
   'LBL_OPP_ORIGIN' => 'Opportunity Origin',
@@ -106,5 +106,6 @@ $mod_strings = array (
   'LBL_PROPS_PROPOSALS_OPPORTUNITIES_FROM_PROPS_PROPOSALS_TITLE' => 'Proposals',
   'LBL_CLOSEDAMOUNT' => 'Closed Amount',
   'LBL_OUTOFHOME' => 'Out of Home',
-  'LBL_CURRENT_PROJECT_AMT' => 'Current Project Amt',
+  'LBL_CURRENT_PROJECT_AMT' => 'Realistic Spend',
+  'LBL_SALES_TOP_TEN' => 'Sales Rep Top 10',
 );

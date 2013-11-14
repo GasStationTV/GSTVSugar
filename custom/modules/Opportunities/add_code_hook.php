@@ -1,5 +1,7 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+if(class_exists('add_code')) return; // for some reason there is a floating 'include' out there trying
+// to include this more than once and generating the error PHP Fatal error:  Cannot redeclare class add_code 
 
 class add_code {
 

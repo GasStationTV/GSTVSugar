@@ -25,6 +25,54 @@ array (
 
 ), 
 
+'props_Proposals2_action0' => 
+
+array ( 
+
+		 'action_type' => 'update_rel', 
+		 'action_module' => '', 
+		 'rel_module' => 'props_proposals_opportunities', 
+		 'rel_module_type' => 'all', 
+	 'basic' => array ( 
+
+		 'flight_start_date_c' => '0', 
+	 ), 
+
+	 'basic_ext' => array ( 
+
+		 'flight_start_date_c' => 'Triggered Date', 
+	 ), 
+
+	 'advanced' => array ( 
+
+	 ), 
+
+), 
+
+'props_Proposals4_action0' => 
+
+array ( 
+
+		 'action_type' => 'update_rel', 
+		 'action_module' => '', 
+		 'rel_module' => 'props_proposals_opportunities', 
+		 'rel_module_type' => 'all', 
+	 'basic' => array ( 
+
+		 'flight_end_date_c' => '0', 
+	 ), 
+
+	 'basic_ext' => array ( 
+
+		 'flight_end_date_c' => 'Triggered Date', 
+	 ), 
+
+	 'advanced' => array ( 
+
+	 ), 
+
+), 
+
 ); 
 
  
