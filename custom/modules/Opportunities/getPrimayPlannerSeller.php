@@ -1,7 +1,7 @@
 <?php
 chdir('../../..'); # rest to root of SugarCRM so all requires work.
 define('sugarEntry', true); # prevent complaints about valid entry points.
-include ('include/MVC/preDispatch.php');
+include_once ('include/MVC/preDispatch.php');
 require_once('include/entryPoint.php');
 require_once('include/MVC/SugarApplication.php');
 
