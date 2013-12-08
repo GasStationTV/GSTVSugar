@@ -9,7 +9,14 @@ $hook_array['before_save'][] = Array(1, 'workflow', 'include/workflow/WorkFlowHa
 $hook_array['after_ui_frame'] = Array(); 
 
 // tony lim - adding auto increment hook
-$hook_array['after_save'] = Array(); $hook_array['after_save'][] = Array(1, 'add_code', 'custom/modules/props_Proposals/add_proposalscode_hook.php','add_code', 'add_code');
+$hook_array['after_save'] = Array(); 
+$hook_array['after_save'][] = Array(
+	1, // execution order 
+	'Auto increment hook', // hook name
+	'custom/modules/props_Proposals/add_proposalscode_hook.php', // file location
+	'add_proposalscode_hook',  // class name
+	'add_proposalscode_hook'   // method name
+);
 
 
 ?>

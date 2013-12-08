@@ -328,14 +328,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'matched_loc',
-            'label' => 'LBL_MATCHED_LOC',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
             'name' => 'gstv_vs_client',
             'studio' => 'visible',
             'label' => 'LBL_GSTV_VS_CLIENT',
@@ -345,6 +337,14 @@ array (
             'name' => 'client_vs_gstv',
             'studio' => 'visible',
             'label' => 'LBL_CLIENT_VS_GSTV',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'mapping_locations_c',
+            'label' => 'LBL_MAPPING_LOCATIONS',
           ),
         ),
         5 => 

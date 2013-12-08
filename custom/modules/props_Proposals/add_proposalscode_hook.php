@@ -1,7 +1,7 @@
 <?php
 if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
-class add_code {
+class add_proposalscode_hook {
 
 	const CODE_PREFIX = "PR";
 	const CODE_SUFFIX = "";
@@ -13,7 +13,7 @@ class add_code {
 	const ZERO_PADDING = 3; //minimum amount of characters desired for the number. ie 4 = 0001, 3 = 001
 	const FIRST_NUM = "001"; //default to start with.
 
-	function add_code(&$bean, $event, $arguments) {
+	function add_proposalscode_hook(&$bean, $event, $arguments) {
 	 //   $GLOBALS['log']->debug("add_code " . $bean->opportunity_name_c);
 
 	//	if ($bean->opportunity_name_c == '') {

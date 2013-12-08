@@ -23,8 +23,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['cb62b343_42b1_d13e_d1be_52845acb739f'])){
-		$triggeredWorkflows['cb62b343_42b1_d13e_d1be_52845acb739f'] = true;
+	if (!isset($triggeredWorkflows['aada262d_ff68_bb0d_9b2c_529df1128f7e'])){
+		$triggeredWorkflows['aada262d_ff68_bb0d_9b2c_529df1128f7e'] = true;
 		 process_workflow_actions($focus, $action_meta_array['props_Proposals0_action0']); 
  	$_SESSION['WORKFLOW_ALERTS'] = isset($_SESSION['WORKFLOW_ALERTS']) && is_array($_SESSION['WORKFLOW_ALERTS']) ? $_SESSION['WORKFLOW_ALERTS'] : array();
 		$_SESSION['WORKFLOW_ALERTS']['props_Proposals'] = isset($_SESSION['WORKFLOW_ALERTS']['props_Proposals']) && is_array($_SESSION['WORKFLOW_ALERTS']['props_Proposals']) ? $_SESSION['WORKFLOW_ALERTS']['props_Proposals'] : array();
@@ -49,8 +49,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['cd56b2b0_7651_d1ab_c75e_52845a1e96c6'])){
-		$triggeredWorkflows['cd56b2b0_7651_d1ab_c75e_52845a1e96c6'] = true;
+	if (!isset($triggeredWorkflows['aada230b_6a95_4b9d_b2f3_529df1f3837f'])){
+		$triggeredWorkflows['aada230b_6a95_4b9d_b2f3_529df1f3837f'] = true;
 		 unset($alertshell_array); 
 		}
  
@@ -73,8 +73,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['cd56b1bc_1913_9de6_2315_52845ad2ace5'])){
-		$triggeredWorkflows['cd56b1bc_1913_9de6_2315_52845ad2ace5'] = true;
+	if (!isset($triggeredWorkflows['abd42150_c79d_8663_fe9d_529df1640b7f'])){
+		$triggeredWorkflows['abd42150_c79d_8663_fe9d_529df1640b7f'] = true;
 		 unset($alertshell_array); 
 		 process_workflow_actions($focus, $action_meta_array['props_Proposals2_action0']); 
  	}
@@ -98,8 +98,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['ce50be8d_5d7b_907f_ce2d_52845a3279f6'])){
-		$triggeredWorkflows['ce50be8d_5d7b_907f_ce2d_52845a3279f6'] = true;
+	if (!isset($triggeredWorkflows['abd429a5_8e55_19c0_2b3f_529df1a9dcf0'])){
+		$triggeredWorkflows['abd429a5_8e55_19c0_2b3f_529df1a9dcf0'] = true;
 		 unset($alertshell_array); 
 		}
  
@@ -122,8 +122,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['ce50b8a4_0b21_91a1_5edd_52845a1ae996'])){
-		$triggeredWorkflows['ce50b8a4_0b21_91a1_5edd_52845a1ae996'] = true;
+	if (!isset($triggeredWorkflows['acce2ea3_5873_1978_8713_529df1d1b7be'])){
+		$triggeredWorkflows['acce2ea3_5873_1978_8713_529df1d1b7be'] = true;
 		 unset($alertshell_array); 
 		 process_workflow_actions($focus, $action_meta_array['props_Proposals4_action0']); 
  	}
@@ -147,8 +147,8 @@ include_once("include/workflow/custom_utils.php");
 	 //Secondary Triggers 
 
 	global $triggeredWorkflows;
-	if (!isset($triggeredWorkflows['cf4aba3c_8f52_ad75_15b3_52845a9dbc5e'])){
-		$triggeredWorkflows['cf4aba3c_8f52_ad75_15b3_52845a9dbc5e'] = true;
+	if (!isset($triggeredWorkflows['acce2490_ba4e_2111_bdef_529df1940329'])){
+		$triggeredWorkflows['acce2490_ba4e_2111_bdef_529df1940329'] = true;
 		 unset($alertshell_array); 
 		}
  
